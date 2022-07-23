@@ -15,8 +15,8 @@ import { Badge} from "@mui/material";
 function Navbaruser() {
   return (
     <Navbar className='tek' >
-      <Container >
-        <Navbar.Brand href="/detail"className='logonav'>TUNICALABS MEDIA</Navbar.Brand>
+      <Container>
+        <Navbar.Brand href="/detail" className='logonav'>TUNICALABS MEDIA</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className='navpro'>
         <div style={{display: 'block', padding: 30}}>
