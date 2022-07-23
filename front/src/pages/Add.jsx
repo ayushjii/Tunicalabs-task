@@ -79,8 +79,7 @@ select{
 }
 button{
     dispaly:flex;
-    margin: 1rem 280px;
-    float:;
+    ${'' /* margin: 1rem 280px; */}
 }
 h1{
     color:red;
@@ -121,9 +120,9 @@ const Add = () => {
         <div  className='minimal'>
         <label  type="text">School</label>
         <select>
-        <option>Male</option>
-        <option>Female</option>
-        <option>Transgender</option>
+        <option>Junior</option>
+        <option>Secondary</option>
+        <option>Senior</option>
         </select>
         </div>
          <div className='minimal'>

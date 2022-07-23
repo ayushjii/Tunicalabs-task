@@ -10,7 +10,6 @@ export default function Detail() {
     return(
       <DetailStyle>
         <Navbaruser />
-          dvkxdvjbbzjhzcvj
           
           </DetailStyle>     
        

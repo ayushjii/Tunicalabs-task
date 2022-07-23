@@ -46,19 +46,20 @@
 }
 .contain{
   display:flex;
-  margin: 4rem 2rem;
+  margin: 2.5rem 1.5rem 0 1.5rem;
   background-color: #fff;
-  max-height: 100%;
+  /* margin-bottom: 10rem; */
 }
 main{
   width: 100%;
   padding: 20px;
 }
 .sidebar{
+  max-width: 100%;
   background: #fff;
   border-right: 1px solid #000;
   color: #000;
-  height: 100vh;
+  height: 84vh;
   width: 400px;
   transition: all 0.5s;
 }
