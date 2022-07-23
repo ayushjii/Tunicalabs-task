@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import DataTable from '../components/DataTable';
 import {HiDownload} from 'react-icons/hi'
+import Navbaruser from '../components/Navbaruser';
+import Sidebar from '../components/Sidebar';
 
 const ViewStyles = styled.div`
 form{
@@ -54,8 +56,18 @@ select{
     float:left;
 }
 `
-
 const View = () => {
+    return(
+        <>
+        <Navbaruser />
+    <Sidebar >
+        <ViewMain />
+    </Sidebar>
+    </> 
+    );
+    }
+
+const ViewMain = () => {
     return (
         <ViewStyles>
             <h1>View Student</h1>

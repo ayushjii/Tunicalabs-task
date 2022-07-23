@@ -26,7 +26,7 @@ export function SignupForm(props) {
         I agree to the Terms Of Services
         </Tncbox>
       <Marginer direction="vertical" margin={10} />
-      <SubmitButton type="submit"><a href="/detail">SignUp</a></SubmitButton>
+      <SubmitButton type="submit"><a href="/view">SignUp</a></SubmitButton>
       <Marginer direction="vertical" margin="1em" />
       <MutedLink href="#">
         Already have an account?

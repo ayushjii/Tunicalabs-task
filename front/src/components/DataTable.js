@@ -15,7 +15,7 @@ const data = [
 
 const TableStyles = styled.div`
 tr:nth-child(odd) {
-    background-color: #ffcccb;
+    background-color: #FFE5B4;
 }
 
 table{
@@ -36,8 +36,6 @@ td{
     padding:.5rem;
 padding-left:2rem;
   color:#000;
-}
-th{
 }
 `
 

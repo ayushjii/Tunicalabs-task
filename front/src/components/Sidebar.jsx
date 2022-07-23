@@ -12,7 +12,7 @@ const Sidebar = ({children}) => {
     const toggle = () => setIsOpen (!isOpen);
     const menuItem=[
         {
-            path:"/",
+            path:"/view",
             name:"View Student",
             icon:<FaUserFriends/>
         },

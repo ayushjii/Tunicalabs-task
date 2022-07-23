@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import Navbaruser from '../components/Navbaruser';
+import Sidebar from '../components/Sidebar';
 // import './Add.css';
 
 const AddStyles = styled.div`
@@ -79,7 +81,6 @@ select{
 }
 button{
     dispaly:flex;
-    ${'' /* margin: 1rem 280px; */}
 }
 h1{
     color:red;
@@ -105,8 +106,18 @@ input[type="checkbox"]{
   background-repeat: no-repeat;
 }
 `
-
 const Add = () => {
+    return(
+        <>
+        <Navbaruser />
+    <Sidebar >
+        <AddMain />
+    </Sidebar>
+    </> 
+    );
+    }
+
+const AddMain = () => {
     return (
         <AddStyles>
             <div className="box box-two">

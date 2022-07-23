@@ -26,7 +26,7 @@ function Navbaruser() {
     </div>
         <img src={user} alt=" " className='user_image' />
           <Nav className="me-auto">
-            <NavDropdown title="USER NAME" id="basic-nav-dropdown" className='drop' >
+            <NavDropdown title="Rajan" id="basic-nav-dropdown" className='drop' >
               <NavDropdown.Item href="#action/3.1"><CgProfile />  Profile</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3"><TbReportSearch />  Reports</NavDropdown.Item>
               <NavDropdown.Divider />
