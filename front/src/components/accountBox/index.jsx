@@ -6,9 +6,9 @@ import { AccountContext } from "./accountContext";
 import { SignupForm } from "./signupForm";
 
 const BoxContainer = styled.div`
-  width: 280px;
-  margin-top: 5rem ;
-  margin-bottom: 5rem ;
+  width: 290px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   min-height: 550px;
   display: flex;
   flex-direction: column;
@@ -17,7 +17,7 @@ const BoxContainer = styled.div`
   box-shadow: 0 0 2px rgba(15, 15, 15, 0.28);
   position: relative;
   overflow: hidden;
-`
+`;
 
 const TopContainer = styled.div`
   width: 100%;
@@ -39,8 +39,7 @@ const BackDrop = styled(motion.div)`
   transform: rotate(60deg);
   top: -290px;
   left: -70px;
-  background: rgba(120,7,7,255);
-
+  background: rgba(120, 7, 7, 255);
 `;
 
 const HeaderContainer = styled.div`
@@ -61,7 +60,7 @@ const HeaderText = styled.h2`
 const InnerContainer = styled.div`
   display: flex;
   flex-direction: column;
-  padding:0  1.8em;
+  padding: 0 1.8em;
 `;
 
 const backdropVariants = {

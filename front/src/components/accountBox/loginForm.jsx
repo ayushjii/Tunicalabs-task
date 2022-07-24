@@ -6,7 +6,7 @@ import {
   Input,
   MutedLink,
   SubmitButton,
-  Tncbox
+  Tncbox,
 } from "./common";
 import { Marginer } from "../marginer";
 import { AccountContext } from "./accountContext";
@@ -17,18 +17,19 @@ export function LoginForm(props) {
   return (
     <BoxContainer>
       <FormContainer>
-        <Input type="email" placeholder="Email" />
-        <Input type="password" placeholder="Password" />
+        <Input type="Email" placeholder="Your Email*" />
+        <Input type="Password" placeholder="Your Password*" />
       </FormContainer>
       <Marginer direction="vertical" margin={10} />
       <Tncbox>
-        <input type="checkbox" id="top"  />
-        I agree to the Terms Of Services
-        </Tncbox>
+        <input type="checkbox" id="top" />I agree to the Terms Of Services
+      </Tncbox>
       <Marginer direction="vertical" margin="1.6em" />
-      <SubmitButton type="submit"><a href="/view">SignIn</a></SubmitButton>
+      <SubmitButton type="submit">
+        <a action="/post" method="post" href="/view">SignIn</a>
+      </SubmitButton>
       <Marginer direction="vertical" margin="1em" />
-      
+
       <MutedLink href="#">
         Don't have an account ?{" "}
         <BoldLink href="#" onClick={switchToSignup}>

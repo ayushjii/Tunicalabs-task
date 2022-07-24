@@ -1,16 +1,14 @@
-import Container from 'react-bootstrap/Container';
-// import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-// import NavDropdown from 'react-bootstrap/NavDropdown';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './navbar.css';
+import Container from "react-bootstrap/Container";
+import Navbar from "react-bootstrap/Navbar";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./navbar.css";
 
 function Navbarmain() {
   return (
-    <Navbar className='tek' >
-      <Container >
-        <Navbar.Brand href="/" className='logonav'>
-        TUNICALABS MEDIA
+    <Navbar className="tek">
+      <Container>
+        <Navbar.Brand href="/view" className="logonav">
+          TUNICALABS MEDIA
         </Navbar.Brand>
       </Container>
     </Navbar>

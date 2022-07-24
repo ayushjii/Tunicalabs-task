@@ -1,27 +1,21 @@
-import React from 'react';
-import './App.css';
-import Sign from './components/Signuppage';
+import React from "react";
+import "./App.css";
+import Sign from "./components/Signuppage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import './App.css';
-// import Sidebar from './components/Sidebar';
-import Add from './pages/Add.jsx';
-// import Navbaruser from './components/Navbaruser';
-import View from './pages/View.jsx';
-
+import "./App.css";
+import Add from "./pages/Add.jsx";
+import View from "./pages/View.jsx";
 
 function App() {
   return (
     <Router>
-  <Routes>
-    <Route exact path="/" element={<Sign />} />
-    <Route path="/view" element={<View />} />
-    <Route path="/add" element={<Add />} />
-  </Routes>
-  </Router>
+      <Routes>
+        <Route exact path="/" element={<Sign />} />
+        <Route path="/view" element={<View />} />
+        <Route path="/add" element={<Add />} />
+      </Routes>
+    </Router>
   );
 }
 
 export default App;
-
-
-
