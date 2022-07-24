@@ -1,14 +1,20 @@
 const express = require("express");
+const path = require('path');
 const app = express();
 const bodyParser = require("body-parser")
 
-// app.get("/api", (req, res) => {
-// res.send("Hello World!");
-// });
+app.use(express.static(path.join(__dirname, '/public')));
+app.use(bodyParser.urlencoded({extended:true}));
 
-app.post("/post", (req, res) => {
-    console.log("Connected to React");
-    res.redirect("/");
+app.get('/*', function (request , response){
+  response.sendFile(path.join(__dirname, '/public', 'index.html'));
+})
+
+app.post("/post", function(req, res){
+ 
+   const naam =req.body.fName;  
+
+    console.log("Connected to React" )
   });
 
 const PORT = process.env.PORT || 3001;
